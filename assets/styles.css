@@ -1,0 +1,18 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+header {
+    position: fixed;
+    border-bottom: solid white;
+}
+
+.text-right {
+    text-align: right;
+}
