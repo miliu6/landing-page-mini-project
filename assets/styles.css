@@ -1,6 +1,7 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightblue;
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -10,9 +11,41 @@ li {
 
 header {
     position: fixed;
-    border-bottom: solid white;
 }
 
 .text-right {
     text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: white;
+}
+
+footer {
+    margin-top: 0;
+    bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px 0;
+    background-color: lightblue;
+}
+
+h1 {
+    color: darkblue;
 }

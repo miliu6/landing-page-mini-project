@@ -11,43 +11,43 @@
       <header>
         <nav class="text-right">
             <ul>
-                <li>
-                    <a href="About us">About us</a>
-                </li>
-                <li>
-                    <a href="Memberships">Memberships</a>
-                </li>
-                <li>
-                    <a href="Contact us">Contact us</a>
-                </li>
+                <li> <a href="#about">About us</a></li>
+                <li> <a href="#membership">Memberships</a></li>
+                <li> <a href="#contact">Contact us</a></li>
             </ul>
         </nav>
       </header>
 
-     <section>
-         <h1>Jimmy's Gym</h1>
-         <img src="./assets/shutterstock_721723381 (1).webp" alt="Empty gym with many machinery and weights.">
-     </section>
-     <section class="About us">
-         <h2>ABOUT US</h2>
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         </p>
-     </section>
-     <section>
-         <h3>MEMBERSHIPS</h3>
-         <p>
-            Eget nunc scelerisque viverra mauris. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Semper risus in hendrerit gravida. Varius quam quisque id diam vel quam elementum. Erat nam at lectus urna duis convallis convallis tellus. Urna et pharetra pharetra massa massa ultricies. Lectus quam id leo in vitae. Tincidunt ornare massa eget egestas purus viverra. Nisi porta lorem mollis aliquam ut porttitor. Eget sit amet tellus cras adipiscing enim eu turpis. Nisi quis eleifend quam adipiscing vitae. Eget arcu dictum varius duis at consectetur. Vel eros donec ac odio tempor orci.
-         </p>
-     </section>
+      <main>
+        <h1 class="text-center">Jimmy's Gym</h1>
+        <figure>
+            <img src="./assets/shutterstock_721723381 (1).webp" alt="Empty gym with many machinery and weights.">
+        </figure>
+        <section id="about">
+            <h2>ABOUT US</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </section>
+        <section id="membership">
+            <h3>MEMBERSHIPS</h3>
+            <p>
+                Eget nunc scelerisque viverra mauris. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Semper risus in hendrerit gravida. Varius quam quisque id diam vel quam elementum. Erat nam at lectus urna duis convallis convallis tellus. Urna et pharetra pharetra massa massa ultricies. Lectus quam id leo in vitae. Tincidunt ornare massa eget egestas purus viverra. Nisi porta lorem mollis aliquam ut porttitor. Eget sit amet tellus cras adipiscing enim eu turpis. Nisi quis eleifend quam adipiscing vitae. Eget arcu dictum varius duis at consectetur. Vel eros donec ac odio tempor orci.
+            </p>
+        </section>
+        <section id="contact">
+          <h4>CONTACT US</h4>
+          <form>
+              <input type="text" id="name" name="user-name">
+              <input type="text" id="email" name="user-email">
+              <button type="submit">Send</button>
+          </form>
+        </section>
+      </main>
+
+      <footer class="text-center">
+        est. since 2022
+      </footer>
      
-     <form>
-         <h4>CONTACT US</h4>
-         <div class="contact">
-             <input type="contact name">
-             <input type="contact email">
-             <button type="submit">Send</button>
-         </div>
-     </form>
     </body>
 </html>
